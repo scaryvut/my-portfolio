@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Portfolio — Arafatullah Arshad
 
-## Getting Started
+A modern, high-performance developer portfolio built to showcase my work, skills, and engineering mindset.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚡ Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio is designed as more than a personal website—it’s a **signal of capability**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+It demonstrates:
+- Strong frontend engineering (React / Next.js mindset)
+- UI/UX attention to detail
+- Performance-first thinking
+- Clean architecture and reusable components
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 What This Portfolio Represents
 
-To learn more about Next.js, take a look at the following resources:
+This project reflects how I approach software:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Clarity over complexity**
+- **Performance over decoration**
+- **Scalable structure over quick hacks**
+- **User experience over developer convenience**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework:** Next.js / React
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion / GSAP (if used)
+- **State Management:** React Hooks
+- **Deployment:** Vercel
+- **Tooling:** ESLint, Prettier
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Features
+
+- Smooth animated UI interactions
+- Responsive design (mobile-first)
+- Dark/Light mode toggle (if implemented)
+- Scroll-based animations
+- Modular component structure
+- Optimized performance (lazy loading where needed)
+
+---
