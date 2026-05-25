@@ -55,21 +55,21 @@ const AboutMe = () => {
       id="about"
       ref={sectionRef}
       className="
-        relative min-h-screen 
+        relative min-h-screen
         bg-zinc-950 text-white
         px-6 md:px-16 py-24
         flex items-center
         overflow-hidden
       "
     >
-      {/* subtle glow like navbar system */}
+      {/* Background Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(34,211,238,0.08),transparent_60%)]" />
 
       <div className="max-w-6xl w-full mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center relative z-10">
-
-        {/* LEFT */}
+        
+        {/* LEFT SIDE */}
         <div className="md:col-span-7 space-y-6">
-
+          
           {/* Heading */}
           <div ref={titleRef} className="flex items-center gap-4 mb-8">
             <h2 className="text-2xl md:text-3xl font-semibold tracking-wide">
@@ -79,7 +79,7 @@ const AboutMe = () => {
             <div className="h-[1px] bg-gradient-to-r from-cyan-400/40 to-transparent w-48 md:w-96" />
           </div>
 
-          {/* Text */}
+          {/* About Text */}
           <div
             ref={textRef}
             className="space-y-6 text-zinc-400 text-sm md:text-base leading-relaxed tracking-wide"
@@ -89,45 +89,49 @@ const AboutMe = () => {
             </p>
 
             <p>
-              I build scalable web applications using React, Next.js, and Node.js with focus on performance and clean architecture.
+              I build scalable web applications using React, Next.js, and
+              Node.js with focus on performance and clean architecture.
             </p>
 
             <p>
-              My expertise includes authentication systems (JWT, role-based access), APIs, and database design using MongoDB and MySQL.
+              My expertise includes authentication systems (JWT, role-based
+              access), APIs, and database design using MongoDB and MySQL.
             </p>
 
             <p>
-              Currently focused on system design, backend scalability, and production-grade full-stack products.
+              Currently focused on system design, backend scalability, and
+              production-grade full-stack products.
             </p>
           </div>
 
-          {/* CTA */}
+          {/* Resume Button */}
           <div ref={btnRef} className="pt-4">
-            <button
-              onClick={() => {
-                window.open("/resume.pdf", "_blank");
-              }}
+            <a
+              href="https://drive.google.com/file/d/1-cxntC06v8IsrOgkMG3UGe-fpazyflFX/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
                 border border-cyan-400 text-cyan-400
                 px-5 py-2 text-sm
-                flex items-center gap-2
+                inline-flex items-center gap-2
                 hover:bg-cyan-400/10
                 transition-all duration-300
                 group
               "
             >
               Resume
+
               <span className="group-hover:translate-y-0.5 transition-transform">
                 ↓
               </span>
-            </button>
+            </a>
           </div>
         </div>
 
-        {/* RIGHT */}
+        {/* RIGHT SIDE */}
         <div className="md:col-span-5 flex justify-center items-center relative">
-
-          {/* decorative dots */}
+          
+          {/* Decorative Dots */}
           <div className="absolute left-4 top-12 grid grid-cols-3 gap-2 opacity-20">
             {[...Array(12)].map((_, i) => (
               <div key={i} className="w-1 h-1 bg-white rounded-full" />
@@ -157,7 +161,6 @@ const AboutMe = () => {
               className="w-full h-full object-contain drop-shadow-[0_10px_20px_rgba(34,211,238,0.15)]"
             />
           </div>
-
         </div>
       </div>
     </section>
